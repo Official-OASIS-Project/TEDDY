@@ -1,0 +1,21 @@
+default:
+  tags:
+    - texlive
+
+stages:
+  - deploy
+
+BuildLib:
+  stage: deploy
+    
+  script:
+    - ls
+
+  artifacts:
+    name: "TEDDY-Deploy"
+    paths:
+    - examples/*
+    - src/*
+    - keywords.txt
+    - library.properties
+    expire_in: '42'

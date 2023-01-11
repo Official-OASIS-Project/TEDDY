@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map For TEDDY
+#######################################
+
+#######################################
+# Library (KEYWORD3)
+#######################################
+
+TEDDY	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+read	KEYWORD2
+getROMDeviceType	KEYWORD2
+getSerialNumber	KEYWORD2
+getSensorDirection	KEYWORD2
+getSensitivity	KEYWORD2
+getTransducerType	KEYWORD2
+getManufacturer	KEYWORD2
+getCalibrationDate	KEYWORD2
